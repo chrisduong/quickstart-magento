@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "DBInstanceClass",
+    "ParameterValue": "db.m1.small"
+  },
+  {
+    "ParameterKey": "DBMasterUserPassword",
+    "ParameterValue": "$[alfred_genpass_32]"
+  },
+  {
+    "ParameterKey": "RDSSecurityGroup",
+    "ParameterValue": "sg-ababab"
+  },
+  {
+    "ParameterKey": "Subnets",
+    "ParameterValue": ["subnet-cccccc", "subnet-dddd"]
+  },
+  {
+    "ParameterKey": "VPCID",
+    "ParameterValue": "vpc-ddddd"
+  }
+]
